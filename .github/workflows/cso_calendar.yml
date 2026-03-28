@@ -1,0 +1,42 @@
+name: Generate CSO Release Calendar
+
+on:
+  schedule:
+    # Runs every morning at 07:00 UTC (08:00 Irish Standard Time)
+    - cron: "0 7 * * *"
+  workflow_dispatch: # Allow manual runs
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate iCal file
+        run: python generate_calendar.py
+
+      - name: Upload iCal as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cso-releases-ical
+          path: cso_releases.ics
+          retention-days: 7
+
+      - name: Commit and push if file changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cso_releases.ics
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update CSO release calendar $(date -u +%Y-%m-%d)"
+            git push
+          fi
