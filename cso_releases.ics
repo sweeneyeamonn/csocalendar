@@ -6,21 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:CSO Releases
 X-WR-CALDESC:Economy and Labour Market releases from CSO Ireland
 BEGIN:VEVENT
-UID:3b9ba98e-1e7e-548f-a4e0-5c205fed852f
-DTSTAMP:20260401T080657Z
-DTSTART;VALUE=DATE:20260401
-DTEND;VALUE=DATE:20260402
-SUMMARY:Monthly Unemployment (March 2026)
-DESCRIPTION:Sector: Labour Market and Earnings\\nSubsector: Labour Market\\
- nStatus: Confirmed\\nSource: https://www.cso.ie/en/csolatestnews/releaseca
- lendar/
-CATEGORIES:Labour Market and Earnings
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:9f4af932-b67b-55e6-8775-7ef98b75b038
-DTSTAMP:20260401T080657Z
+DTSTAMP:20260402T075607Z
 DTSTART;VALUE=DATE:20260402
 DTEND;VALUE=DATE:20260403
 SUMMARY:Live Register (March 2026)
@@ -33,13 +20,37 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5fc47faa-1dff-5166-af85-a49a8d012f8a
-DTSTAMP:20260401T080657Z
+DTSTAMP:20260402T075607Z
 DTSTART;VALUE=DATE:20260402
 DTEND;VALUE=DATE:20260403
 SUMMARY:Government Finance Statistics Annual - Provisional Headline Results
   (2025)
 DESCRIPTION:Sector: Economy\\nSubsector: Government Accounts\\nStatus: Conf
  irmed\\nSource: https://www.cso.ie/en/csolatestnews/releasecalendar/
+CATEGORIES:Economy
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2c2495bb-5165-5ba1-a496-262421de85bf
+DTSTAMP:20260402T075607Z
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260410
+SUMMARY:Consumer Price Index (March 2026)
+DESCRIPTION:Sector: Economy\\nSubsector: Prices\\nStatus: Confirmed\\nSourc
+ e: https://www.cso.ie/en/csolatestnews/releasecalendar/
+CATEGORIES:Economy
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5ffa4c15-4ddb-5744-a9e4-e6314cb98e17
+DTSTAMP:20260402T075607Z
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260410
+SUMMARY:Focus on Fuel and Home Heating Costs (2026)
+DESCRIPTION:Sector: Economy\\nSubsector: Prices\\nStatus: Confirmed\\nSourc
+ e: https://www.cso.ie/en/csolatestnews/releasecalendar/
 CATEGORIES:Economy
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
