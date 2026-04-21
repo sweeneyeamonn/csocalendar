@@ -6,20 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:CSO Releases
 X-WR-CALDESC:Economy and Labour Market releases from CSO Ireland
 BEGIN:VEVENT
-UID:a8690df2-6a6a-51a7-898d-51d914af8aff
-DTSTAMP:20260420T090304Z
-DTSTART;VALUE=DATE:20260420
-DTEND;VALUE=DATE:20260421
-SUMMARY:Productivity in Ireland Quarterly (Quarter 4 2025)
-DESCRIPTION:Sector: Economy\\nSubsector: National Accounts\\nStatus: Confir
- med\\nSource: https://www.cso.ie/en/csolatestnews/releasecalendar/
-CATEGORIES:Economy
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:f2ea677b-62f6-5f64-ada3-66920496d425
-DTSTAMP:20260420T090304Z
+DTSTAMP:20260421T082422Z
 DTSTART;VALUE=DATE:20260421
 DTEND;VALUE=DATE:20260422
 SUMMARY:Government Finance Statistics - Annual Results (2025)
@@ -31,12 +19,24 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:593818de-2ec0-5535-8dd8-bb2a15ffc0ed
-DTSTAMP:20260420T090304Z
+DTSTAMP:20260421T082422Z
 DTSTART;VALUE=DATE:20260422
 DTEND;VALUE=DATE:20260423
 SUMMARY:Government Finance Statistics Quarterly Results (Quarter 4 2025)
 DESCRIPTION:Sector: Economy\\nSubsector: Government Accounts\\nStatus: Conf
  irmed\\nSource: https://www.cso.ie/en/csolatestnews/releasecalendar/
+CATEGORIES:Economy
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8fbfd690-e93e-57ec-90b9-65fe66d37cb6
+DTSTAMP:20260421T082422Z
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260429
+SUMMARY:Wholesale Price Index (March 2026)
+DESCRIPTION:Sector: Economy\\nSubsector: Prices\\nStatus: Confirmed\\nSourc
+ e: https://www.cso.ie/en/csolatestnews/releasecalendar/
 CATEGORIES:Economy
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
