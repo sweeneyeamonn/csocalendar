@@ -6,20 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:CSO Releases
 X-WR-CALDESC:Economy and Labour Market releases from CSO Ireland
 BEGIN:VEVENT
-UID:898fc9a1-a46f-5b86-b9b3-dd3d8712e9ce
-DTSTAMP:20260513T093256Z
-DTSTART;VALUE=DATE:20260513
-DTEND;VALUE=DATE:20260514
-SUMMARY:Residential Property Price Index (March 2026)
-DESCRIPTION:Sector: Economy\\nSubsector: Prices\\nStatus: Confirmed\\nSourc
- e: https://www.cso.ie/en/csolatestnews/releasecalendar/
-CATEGORIES:Economy
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:3b385d0a-c3e1-587b-ac90-e9471e8e0b25
-DTSTAMP:20260513T093256Z
+DTSTAMP:20260514T092424Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20260515
 SUMMARY:Consumer Price Index (April 2026)
@@ -31,7 +19,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3e30febe-9be0-5f01-a76d-18924364c60d
-DTSTAMP:20260513T093256Z
+DTSTAMP:20260514T092424Z
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
 SUMMARY:Monthly Estimates of Payroll Employees using Administrative Data (M
@@ -45,12 +33,52 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:106c7d9b-aa56-54c9-93d3-569adfce5573
-DTSTAMP:20260513T093256Z
+DTSTAMP:20260514T092424Z
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
 SUMMARY:Goods Exports and Imports (March 2026)
 DESCRIPTION:Sector: Economy\\nSubsector: External Trade\\nStatus: Confirmed
  \\nSource: https://www.cso.ie/en/csolatestnews/releasecalendar/
+CATEGORIES:Economy
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7aee0f26-b59f-51b0-8798-8161dacb7f96
+DTSTAMP:20260514T092424Z
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+SUMMARY:Labour Force Survey (Quarter 1 2026)
+DESCRIPTION:Sector: Labour Market and Earnings\\nSubsector: Labour Market  
+ \\nStatus: Confirmed\\nSource: https://www.cso.ie/en/csolatestnews/release
+ calendar/
+CATEGORIES:Labour Market and Earnings
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:be3d7fcc-b907-5931-9d30-c403e383d1a3
+DTSTAMP:20260514T092424Z
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+SUMMARY:Labour Force Detailed Employment Series - PxStat Tables (Quarter 1 
+ 2026)
+DESCRIPTION:Sector: Labour Market and Earnings\\nSubsector: Labour Market\\
+ nStatus: Confirmed\\nSource: https://www.cso.ie/en/csolatestnews/releaseca
+ lendar/
+CATEGORIES:Labour Market and Earnings
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e477a1d2-c2cf-554b-a19a-81f1ec2fbe6b
+DTSTAMP:20260514T092424Z
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+SUMMARY:Ireland and Northern Ireland - A Regional Economic Comparison (2023
+  (Provisional) 2024 (Final))
+DESCRIPTION:Sector: Economy\\nSubsector: National Accounts\\nStatus: Confir
+ med\\nSource: https://www.cso.ie/en/csolatestnews/releasecalendar/
 CATEGORIES:Economy
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
