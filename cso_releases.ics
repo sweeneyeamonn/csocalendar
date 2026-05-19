@@ -7,7 +7,7 @@ X-WR-CALNAME:CSO Releases
 X-WR-CALDESC:Economy and Labour Market releases from CSO Ireland
 BEGIN:VEVENT
 UID:7aee0f26-b59f-51b0-8798-8161dacb7f96
-DTSTAMP:20260518T105146Z
+DTSTAMP:20260519T102828Z
 DTSTART;VALUE=DATE:20260521
 DTEND;VALUE=DATE:20260522
 SUMMARY:Labour Force Survey (Quarter 1 2026)
@@ -20,7 +20,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:be3d7fcc-b907-5931-9d30-c403e383d1a3
-DTSTAMP:20260518T105146Z
+DTSTAMP:20260519T102828Z
 DTSTART;VALUE=DATE:20260521
 DTEND;VALUE=DATE:20260522
 SUMMARY:Labour Force Detailed Employment Series - PxStat Tables (Quarter 1 
@@ -33,27 +33,41 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e477a1d2-c2cf-554b-a19a-81f1ec2fbe6b
-DTSTAMP:20260518T105146Z
-DTSTART;VALUE=DATE:20260521
-DTEND;VALUE=DATE:20260522
-SUMMARY:Ireland and Northern Ireland - A Regional Economic Comparison (2023
-  (Provisional) 2024 (Final))
-DESCRIPTION:Sector: Economy\\nSubsector: National Accounts\\nStatus: Confir
- med\\nSource: https://www.cso.ie/en/csolatestnews/releasecalendar/
-CATEGORIES:Economy
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:7e141122-54c2-51c0-a2cd-73fa3c2f0e6e
-DTSTAMP:20260518T105146Z
+DTSTAMP:20260519T102828Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
 SUMMARY:Wholesale Price Index (April 2026)
 DESCRIPTION:Sector: Economy\\nSubsector: Prices\\nStatus: Confirmed\\nSourc
  e: https://www.cso.ie/en/csolatestnews/releasecalendar/
 CATEGORIES:Economy
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:85b9df31-0e85-5714-8539-5f4a2d6f83dc
+DTSTAMP:20260519T102828Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:Industrial Disputes (PxStat Tables) (Quarter 1 2026)
+DESCRIPTION:Sector: Labour Market and Earnings\\nSubsector: Labour Market\\
+ nStatus: Confirmed\\nSource: https://www.cso.ie/en/csolatestnews/releaseca
+ lendar/
+CATEGORIES:Labour Market and Earnings
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e6037d12-4489-536c-9f25-a5c71c43a7f1
+DTSTAMP:20260519T102828Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:Earnings and Labour Costs (Quarter 1 2026 (Provisional) Quarter 4 2
+ 025 (Final))
+DESCRIPTION:Sector: Labour Market and Earnings\\nSubsector: Earnings\\nStat
+ us: Confirmed\\nSource: https://www.cso.ie/en/csolatestnews/releasecalenda
+ r/
+CATEGORIES:Labour Market and Earnings
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
