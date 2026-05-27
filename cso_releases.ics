@@ -6,35 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:CSO Releases
 X-WR-CALDESC:Economy and Labour Market releases from CSO Ireland
 BEGIN:VEVENT
-UID:85b9df31-0e85-5714-8539-5f4a2d6f83dc
-DTSTAMP:20260526T103813Z
-DTSTART;VALUE=DATE:20260526
-DTEND;VALUE=DATE:20260527
-SUMMARY:Industrial Disputes (PxStat Tables) (Quarter 1 2026)
-DESCRIPTION:Sector: Labour Market and Earnings\\nSubsector: Labour Market\\
- nStatus: Confirmed\\nSource: https://www.cso.ie/en/csolatestnews/releaseca
- lendar/
-CATEGORIES:Labour Market and Earnings
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e6037d12-4489-536c-9f25-a5c71c43a7f1
-DTSTAMP:20260526T103813Z
-DTSTART;VALUE=DATE:20260526
-DTEND;VALUE=DATE:20260527
-SUMMARY:Earnings and Labour Costs (Quarter 1 2026 (Provisional) Quarter 4 2
- 025 (Final))
-DESCRIPTION:Sector: Labour Market and Earnings\\nSubsector: Earnings\\nStat
- us: Confirmed\\nSource: https://www.cso.ie/en/csolatestnews/releasecalenda
- r/
-CATEGORIES:Labour Market and Earnings
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:e063c94a-7df8-51b1-81d2-f924c8a3e869
-DTSTAMP:20260526T103813Z
+DTSTAMP:20260527T104330Z
 DTSTART;VALUE=DATE:20260528
 DTEND;VALUE=DATE:20260529
 SUMMARY:Labour Market Churn (Quarter 1 2026)
@@ -47,12 +20,25 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bb8822f8-57d4-57ca-94bb-e225b8cbe713
-DTSTAMP:20260526T103813Z
+DTSTAMP:20260527T104330Z
 DTSTART;VALUE=DATE:20260529
 DTEND;VALUE=DATE:20260530
 SUMMARY:Flash Estimate of Harmonised Index of Consumer Prices (May 2026)
 DESCRIPTION:Sector: Economy\\nSubsector: Prices\\nStatus: Confirmed\\nSourc
  e: https://www.cso.ie/en/csolatestnews/releasecalendar/
+CATEGORIES:Economy
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f7d33338-da41-5eb6-8684-246ce31c2022
+DTSTAMP:20260527T104330Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+SUMMARY:Ireland and Northern Ireland - A Regional Economic Comparison (2023
+  (Provisional) 2024 (Final))
+DESCRIPTION:Sector: Economy\\nSubsector: National Accounts\\nStatus: Confir
+ med\\nSource: https://www.cso.ie/en/csolatestnews/releasecalendar/
 CATEGORIES:Economy
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
